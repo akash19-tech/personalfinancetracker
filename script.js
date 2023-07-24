@@ -37,7 +37,7 @@ const showTransactions = () => {
         <tr>
             <td>${transactions[i].type}</td>
             <td>${transactions[i].name}</td>
-            <td>$${transactions[i].amount}</td>
+            <td>₹${transactions[i].amount}</td>
             <td><a class="deleteButton" onclick="deleteTransaction(${transactions[i].id})">
                 Delete</td>
         </tr>
